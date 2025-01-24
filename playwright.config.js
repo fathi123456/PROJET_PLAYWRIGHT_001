@@ -40,7 +40,14 @@ export default defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
-
+    {
+      name: 'Firefox', // Tests sur Firefox
+      use: { browserName: 'firefox' },
+    },
+    {
+      name: 'WebKit', // Tests sur WebKit
+      use: { browserName: 'webkit' },
+    },
     
 
 
